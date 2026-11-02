@@ -1,0 +1,24 @@
+"Few recordings re-sent to the Deepgram API with different settings. Same audio, same scoring. Table 1: DER %. Table 2 (below): words returned.",,,,,,,,,
+"Not shown because they changed nothing: smart_format, punctuate, filler_words, paragraphs, numerals, diarize_model latest vs v2, utt_split from 0.1 to 2 s, word vs utterance timelines. Each stayed within about 2 points of the benchmark setting on 7 of the 8 recordings, and within 4 points on the eighth.",,,,,,,,,
+,,,,,,,,,
+Table 1: DER % for different settings ,,,,,,,,,
+Session ID,"Benchmark-style setting (nova-3, language en)","nova-3, language en-IN","nova-3, language en-US","nova-3, language auto-detect","nova-3, language multi","nova-3, language multi, diarize v1",nova-2,enhanced-meeting,whisper-large (hosted by Deepgram)
+D20260825_S003_014_5SPK_IN_EN,99.07,99.07,99.07,99.07,88.15,82.45,98.25,90.51,67.66
+D20260825_S003_015_5SPK_IN_EN,100,100,100,100,93.06,89.76,98.97,93.82,64.95
+D20260825_S004_26_2SPK_IN_EN,85.11,85.11,85.11,85.11,53.93,45.86,76.3,63.91,48.24
+D20260826_S001_03_4SPK_IN_EN,98.47,98.47,98.53,98.53,77.66,66.87,97.5,78.57,58.52
+D20260826_S001_05_4SPK_IN_EN,98.35,97.84,98.35,97.83,85.33,78.15,97.01,88.04,71.72
+D20260905_S003_04_3SPK_IN_EN,98.03,98.03,98.03,97.91,59.78,43.99,93.74,69.68,42.2
+D20260906_S003_04_4SPK_IN_EN,96.55,96.55,96.55,96.55,65.48,46.58,91.23,59.25,33.15
+D20260906_S003_09_4SPK_IN_EN,97.07,97.07,97.07,96.98,64.72,52.57,91.55,68.31,49.14
+,,,,,,,,,
+Table 2: words returned,,,,,,,,,
+Session ID,"Benchmark-style setting (nova-3, language en)","nova-3, language en-IN","nova-3, language en-US","nova-3, language auto-detect","nova-3, language multi","nova-3, language multi, diarize v1",nova-2,enhanced-meeting,whisper-large (hosted by Deepgram)
+D20260825_S003_014_5SPK_IN_EN,34,34,34,34,983,981,131,753,1934
+D20260825_S003_015_5SPK_IN_EN,0,0,0,0,465,389,28,419,1661
+D20260825_S004_26_2SPK_IN_EN,299,299,299,298,908,905,533,772,864
+D20260826_S001_03_4SPK_IN_EN,114,114,111,112,1549,1543,225,1512,2120
+D20260826_S001_05_4SPK_IN_EN,166,200,166,201,1052,1126,319,890,1842
+D20260905_S003_04_3SPK_IN_EN,56,56,56,56,1624,1622,246,1212,1607
+D20260906_S003_04_4SPK_IN_EN,74,74,74,74,1159,1159,234,1288,1435
+D20260906_S003_09_4SPK_IN_EN,83,83,83,84,1644,1644,368,1298,1730

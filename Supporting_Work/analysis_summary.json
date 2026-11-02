@@ -1,0 +1,25 @@
+{
+  "workbook": "D:\\AllProjects\\Josh Talks assignment\\Deepgram_Failure_Analysis_Data.xlsx",
+  "sheet_names": [
+    "Read me",
+    "Sessions",
+    "Results",
+    "Transcripts",
+    "Deepgram API check",
+    "Audio quality",
+    "Deepgram settings"
+  ],
+  "recording_count": 15,
+  "rttm_file_count": 60,
+  "published_der_mean": 64.45066666666665,
+  "published_der_median": 86.02,
+  "empty_nova_rttm": 2,
+  "missing_workbook_ids_in_rttm": [],
+  "rttm_ids_not_in_workbook": [
+    "D20260825_S003_012_5SPK_IN_EN",
+    "D20260825_S004_08_2SPK_IN_EN",
+    "D20260825_S007_13_3SPK_IN_EN",
+    "D20260905_S003_10_3SPK_IN_EN",
+    "O20260826_S010_07_01_4SPK_US_EN"
+  ]
+}

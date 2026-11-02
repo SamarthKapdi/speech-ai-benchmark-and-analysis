@@ -1,0 +1,42 @@
+{
+  "recordings": 15,
+  "mean_der": 64.45066666666665,
+  "median_der": 86.02,
+  "worst_five_ids": [
+    "D20260825_S003_015_5SPK_IN_EN",
+    "D20260825_S003_014_5SPK_IN_EN",
+    "D20260826_S001_03_4SPK_IN_EN",
+    "D20260826_S001_05_4SPK_IN_EN",
+    "D20260905_S003_04_3SPK_IN_EN"
+  ],
+  "worst_five_der": [
+    100.0,
+    99.14,
+    98.59,
+    97.92,
+    97.91
+  ],
+  "worst_five_coverage": [
+    0.0,
+    1.7,
+    5.5,
+    9.8,
+    4.0
+  ],
+  "component_delta_max_abs": 0.010000000000005116,
+  "component_delta_nonzero_count": 7,
+  "empty_nova_rttm": [
+    "D20260825_S003_012_5SPK_IN_EN",
+    "D20260825_S003_015_5SPK_IN_EN"
+  ],
+  "extra_rttm_ids": [
+    "D20260825_S003_012_5SPK_IN_EN",
+    "D20260825_S004_08_2SPK_IN_EN",
+    "D20260825_S007_13_3SPK_IN_EN",
+    "D20260905_S003_10_3SPK_IN_EN",
+    "O20260826_S010_07_01_4SPK_US_EN"
+  ],
+  "reference_rttm_count": 20,
+  "nova_rttm_count": 20,
+  "vad_rttm_count": 20
+}

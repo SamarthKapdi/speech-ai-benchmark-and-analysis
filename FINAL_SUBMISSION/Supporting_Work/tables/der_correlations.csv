@@ -1,0 +1,29 @@
+,pearson_r
+Nova-3 DER %,1.0
+Nova-3 missed speech %,0.9969336749036449
+ElevenLabs Scribe v2 DER %,0.7891813127932773
+Soniox async v5 DER %,0.745944024286104
+Speechmatics Enhanced DER %,0.7415815573374921
+Smallest AI Pulse DER %,0.7277685113482394
+Background noise level (dBFS),0.7037881913142352
+Words spoken (human reference),0.610720458911809
+Words in reference,0.6107204589118089
+Speakers,0.6033530893339697
+Speakers in reference,0.6033530893339696
+Time with 2+ people talking (% of speech),0.5599203846230254
+Meta Muse Voice Transcribe DER %,0.5584040297741335
+Overall loudness (dBFS),0.46327039569014317
+Speech level (dBFS),0.44362055756215196
+Clipped samples (%),0.40992875126035244
+Other systems: median words returned,0.3152157194511079
+Loudest point (dBFS),0.30296028258631924
+Human reference speech (min),0.26513029448562186
+Audio length (min),0.15655040026584388
+Speech covered by VAD (%),-0.033908238147968894
+pyannoteAI Precision-3 DER %,-0.08503188504554408
+Speech above background (dB),-0.40051109759891046
+Nova-3 speaker confusion %,-0.45451093939353043
+Nova-3 speakers found,-0.7376087087551977
+Nova-3 words returned,-0.8360133071880386
+Nova-3 false alarm %,-0.8618371530378965
+Speech covered by Nova-3 (%),-0.9916059171008955
